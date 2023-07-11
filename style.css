@@ -1,0 +1,468 @@
+/*Line 98*/
+/* -----------------
+ * REUSABLE SELECTOR
+ * ----------------*/
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 0.938em;
+}
+.column {
+    margin-left: -0.938em;
+    margin-right: -0.9.38em;
+}
+.column .row {
+    padding: 0 0.938em;
+}
+.flexwrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flexcenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}/* Line 123 */
+.flexitem {
+    display: flex;
+    align-items: center;
+}
+.flexcol {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.main-links a:hover {
+    color: var(--secondary-color);
+}
+.second-links a:hover {
+    color: var(--light-text-color);
+}/* Line 139*/
+
+.icon-small, .icon-large {
+    display: flex;
+    align-items: center;
+    padding: 0 0.25em;
+}
+.icon-small {
+    font-size: 1.25em;
+    margin: auto;
+}/* Line 150*/
+.icon-large {
+    font-size: 1.75em;
+    padding: 0 0.75em 0 0;
+} /* Line 154 */
+
+
+/* ---------------------- Line 174
+ * Structure Styling
+    
+    00. Reusable selectors
+
+    01. HEADER
+        a. Header Top
+        b. Header Nav
+        c. Header Main, Departments Category
+        d. Search Form
+        e. Responisve MENU - Off Canvas
+    02. SLIDER
+    03. BRANDS
+    04. PRODUCT                    -- Line 187
+        a. Global product
+        b. BIG product
+        c. MINI product
+        d. MAIN product
+        d. MAIN product
+    05. BANNER
+        a. News Letter
+        b. Widgets
+        c. Footer Info
+    06. BOTTOM MENU
+        a. Search
+    07. OVERLAY
+    08. PAGE SINGLE
+        a. Breadcrumb
+        b. Product details
+        c. Product description
+        d. Product Review
+        e. Product Review Form
+    09. PAGE SINGLE: SPECIAL OFFER
+    10. PAGE CATEGORY
+        a. Sidebar products filter      -Line 207
+        b. Products block
+    11. CART
+    12. PAGE CART
+    13. PAGE CHECKOUT
+    14. MODAL
+    15. RESPONSIVE
+*                           - Line 214
+* ----------------*/
+
+
+/* --------------
+ * 01. HEADER                   -- Line 219
+ * ------------*/
+header li > a {
+    display: flex;
+    position: relative;
+    line-height: inherit;
+    transition: var(--trans-color);
+}
+    
+
+
+
+
+    /* 01. HEADER ----------------
+     *  a. Header Top          - Line 227
+     * -------------------------*/
+.header-top .wrapper {
+    font-size: var(--font-small);
+    font-weight: var(--fw3);
+    justify-content: space-between;
+    line-height: 42px;
+}
+.header-top .wrapper ul {
+    gap: 2em;
+}
+.header-top li {
+    position: relative;
+}
+.header-top ul ul {
+    position: absolute;
+    left: -1em;
+    line-height: 2em;
+    background-color: var(--white-color);
+    border: 1px solid var(--border-color);
+    z-index: 1;
+    display: none;
+}
+.header-top .right ul ul li a {       /* Line 255*/
+    padding: 0.25em 1 em;
+}
+.header-top .right ul ul li.current a {       /* Line 258*/
+    background-color: var(--border-color);
+}
+.header-top li:hover ul {
+    display: block;
+}
+
+
+
+    /* 01. HEADER ----------------
+     *  b. Header Nav          - Line 269
+     * -------------------------*/
+.trigger {
+    font-size: 1.5em;
+    display: flex;
+    padding: 0.25em;
+    margin-right: 0.5em;
+} /* Line 275 */
+.logo a {
+    font-family: 'Poppins';
+    font-size: 1.75em;
+    position: relative;
+    font-weight: var(--fw8);
+    display: flex;
+    padding-left: 0.75em;
+    margin-right: 2em;
+}
+.circle {
+    position: absolute;
+    top: -15px;
+    left: 0;
+    width: 38px;
+    height: 38px;
+    border-radius: var(--percent50);
+    background-color: var(--light-bg-color);
+    z-index: -1;
+}
+.circle::before {
+    content: '';
+    position: absolute;
+    width: 28px;
+    height: 28px;
+}
+
+
+
+    /* 01. HEADER --------------------------------------
+     *  c. Header Main, Departments Category          - Line
+     * ----------------------------------------------*/
+
+
+
+
+
+    /* 01. HEADER --------------------------------------
+     *  d. Search Form                           - Line
+     * ----------------------------------------------*/
+
+
+
+
+    /* 01. HEADER --------------------------------------
+     *  e. Responsive MENU - Off Canvas          - Line 
+     * ----------------------------------------------*/
+
+
+
+
+
+
+/* --------------
+ * 02. SLIDER                   -- Line 
+ * ------------*/
+
+
+/* --------------
+ * 03. BRANDS                   -- Line 
+ * ------------*/
+ 
+
+
+/* -------------------------
+ * 04. PRODUCT BLOCK STYLE                   -- Line
+ * -----------------------*/
+
+
+
+
+
+
+    /* 04. PRODUCT --------------------------------------
+     *  a. Global Product          - Line 
+     * ----------------------------------------------*/
+
+
+
+
+    /* 04. PRODUCT --------------------------------------
+     *  b. BIG product          - Line 
+     * ----------------------------------------------*/
+
+
+
+
+
+    /* 04. PRODUCT --------------------------------------
+     *  a. Global Product          - Line 
+     * ----------------------------------------------*/
+
+
+
+
+    /* 04. PRODUCT --------------------------------------
+     *  b. BIG product          - Line 
+     * ----------------------------------------------*/
+
+
+
+
+/* --------------
+ * 05. BANNER                   -- Line 
+ * ------------*/
+ 
+
+
+
+
+
+ /* --------------
+ * 05. FOOTER                   Error de numeracion a proposito -- Line 
+ * ------------*/
+ 
+
+
+
+    /* 05. PRODUCT --------------------------------------
+     *  a. News Letter          - Line 
+     * ------------------------------------------------*/
+
+
+
+
+
+    /* 05. PRODUCT --------------------------------------
+     *  b. Widgets          - Line 
+     * ------------------------------------------------*/
+
+
+
+
+
+    /* 05. PRODUCT --------------------------------------
+     *  c. Footer info          - Line 
+     * ------------------------------------------------*/
+
+
+
+
+
+/* ----------------
+ * 06. BOTTOM MENU                   -- Line 
+ * --------------*/
+ 
+
+
+
+
+     /* 06. BOTTOM MENU ---------------------------------
+     *  a. Search          - Line 
+     * ------------------------------------------------*/
+
+
+
+
+
+/* ----------------
+ * 07. OVERLAY                   -- Line 
+ * --------------*/
+ 
+
+
+
+
+
+
+/* ----------------
+ * 08. PAGE SINGLE                    -- Line 
+ * --------------*/
+
+
+
+ 
+
+    /* 08. PAGE SINGLE  ---------------------------------
+     *  a. Breadcrumb         - Line 
+     * ------------------------------------------------*/
+
+
+
+
+
+
+    /* 08. PAGE SINGLE  ---------------------------------
+     *  b. Product details         - Line 
+     * ------------------------------------------------*/
+
+
+
+
+
+
+
+    /* 08. PAGE SINGLE  ---------------------------------
+     *  c. Product description         - Line 
+     * ------------------------------------------------*/
+
+
+
+
+
+
+
+    /* 08. PAGE SINGLE  ---------------------------------
+     *  d. Product Review         - Line 
+     * ------------------------------------------------*/
+
+
+
+
+
+
+
+    /* 08. PAGE SINGLE  ---------------------------------
+     *  e. Product Review Form        - Line 
+     * ------------------------------------------------*/
+
+
+    
+/* ---------------------------------
+ * 09. PAGE SINGLE: SPECIAL OFFER        -- Line 
+ * --------------------------------*/
+
+
+
+
+
+ /* --------------------------
+ * 10. PAGE CATEGORY        -- Line 
+ * -------------------------*/
+
+
+
+
+
+
+
+    /* 10. PAGE SINGLE  ---------------------------------
+     *  a. Sidebar products filter         - Line 
+     * ------------------------------------------------*/
+
+
+
+
+
+
+
+    /* 10. PAGE SINGLE  ---------------------------------
+     *  b. Products black         - Line 
+     * ------------------------------------------------*/
+
+
+
+
+
+/* --------------------------
+ * 11. CART           -- Line 
+ * -------------------------*/
+
+
+
+
+
+
+/* --------------------------
+ * 12. PAGE CART           -- Line 
+ * -------------------------*/
+
+
+
+
+
+
+
+/* --------------------------
+ * 13. PAGE CHECKOUT           -- Line 
+ * -------------------------*/
+
+
+
+
+
+
+
+
+/* --------------------------
+ * 14. MODAL           -- Line 
+ * -------------------------*/
+
+
+
+
+
+
+/* --------------------------
+ * 15. RESPONSIVE           -- Line 
+ * -------------------------*/
+@media screen and (min-width: 992px) {
+    .container {
+        padding: 0 2em;
+    }
+    .desktop-hide {
+        display: none;
+    }
+}
